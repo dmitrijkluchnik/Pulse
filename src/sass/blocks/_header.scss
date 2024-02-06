@@ -3,7 +3,7 @@
     justify-content: space-between;
     align-items: center;
     &__official {
-        color: #FFFFFF;
+        color: $white-color;
         font-size: 12px;
         font-weight: 500;
         line-height: 12px;
@@ -17,13 +17,13 @@
     
     &__phone {
         display: block;
-        color: #FFFFFF;
+        color: $white-color;
         font-size: 18px;
         font-weight: 700;
         line-height: 18px;
         &:hover {
             text-decoration: none;
-            color: #FFFFFF;
+            color: $white-color;
         }   
     }
 
