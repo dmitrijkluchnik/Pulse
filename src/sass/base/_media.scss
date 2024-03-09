@@ -4,6 +4,32 @@
     }
 }
 
+@media (max-width: 1099px) {
+    .carousel {
+        .prev {
+            display: none;
+        }
+        .next {
+            display: none;
+        }
+        .tns-nav {
+            display: flex;
+            justify-content: center;
+            button{
+                background-color: gainsboro;
+                width: 20px;
+                height: 20px;
+                margin-right: 5px;
+                border-radius: 100%;
+                border: none;
+            }
+            .tns-nav-active{
+                background-color: $base-color;
+            }
+        }
+    }
+}
+
 @media (max-width: 991px) {
     .container {
         max-width: 720px;
