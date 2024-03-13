@@ -44,6 +44,7 @@
         min-height: 442px;
         padding: 20px;
         border: 2px solid rgb(232, 232, 232);
+        overflow: hidden;
         &__img {
             display: block;
             margin: 0 auto;
@@ -102,6 +103,34 @@
             font-size: 20px;
             font-weight: 700;
             line-height: 20px;
+        }
+        &__wrapper {
+            display: flex;
+            width: calc(200% + 40px);
+        }
+        &__content {
+            width: 50%;
+            margin-right: 0px;
+            transform: translateX(-100%);
+            transition: 0.7s all;
+            &_active {
+                transform: translateX(0%);
+                margin-right: 20px;
+            }
+        }
+        &__list {
+            width: 50%;
+            margin-left: 20px;
+            transform: translateX(0%);
+            padding-right: 20px;
+            transition: 0.7s all;
+            padding-left: 0;
+            margin-bottom: 0;
+            list-style-type: none;
+            &_active {
+                transform: translateX(-100%);
+                margin-left: 0px;
+            }
         }
     }
 }
