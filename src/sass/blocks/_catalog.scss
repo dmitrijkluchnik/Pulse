@@ -37,6 +37,10 @@
         }
     }
     &__content {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: flex-start;
         margin-top: 57px;
     }
     &-item {
@@ -45,6 +49,7 @@
         padding: 20px;
         border: 2px solid rgb(232, 232, 232);
         overflow: hidden;
+        margin-bottom: 20px;
         &__img {
             display: block;
             margin: 0 auto;
