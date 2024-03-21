@@ -37,11 +37,14 @@
         }
     }
     &__content {
-        display: flex;
+        display: none;
         flex-wrap: wrap;
         justify-content: space-between;
         align-items: flex-start;
         margin-top: 57px;
+        &_active {
+            display: flex;
+        }
     }
     &-item {
         width: 303px;
