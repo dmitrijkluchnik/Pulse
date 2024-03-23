@@ -109,6 +109,29 @@
     .button_submit {
         height: 50px;
     }
+    .footer {
+        &__info {
+            padding: 20px; 
+            width: 100%;
+            top: unset;
+            height: 170px;
+            bottom: -170px;
+        }
+        &__address {
+            font-size: 16px;
+        }
+        &__phone {
+            font-size: 16px;
+            margin-top: 15px;
+        }
+        &__social {
+            margin-top: 15px;
+        }
+        &__item {
+            width: 40px;
+            height: 40px;
+        }
+    }
 }
 
 @media (max-width: 767px) {
@@ -154,6 +177,19 @@
         }
         &__tab {
             font-size: 12px;
+        }
+    }
+    .review {
+        &__item {
+            align-items: center;
+        }
+        &__img {
+            width: 89px;
+            height: 89px;
+        }
+        &__text {
+            margin-left: 20px;
+            padding-right: 0;
         }
     }
 }
@@ -218,6 +254,24 @@
             &__price {
                 font-size: 16px;
             }
+        }
+    }
+    .review {
+        &__item {
+            justify-content: center;
+            flex-wrap: wrap;
+            margin-top: 30px;
+        }
+        &__header {
+            margin-top: 10px;
+            text-align: center;
+            font-size: 16px;
+        }
+        &__subtitle {
+            text-align: center;
+        }
+        &__descr {
+            font-size: 14px;
         }
     }
 }
