@@ -148,6 +148,14 @@
             margin: 30px auto 0 auto;
         }
     }
+    .catalog {
+        &__content {
+            justify-content: center;
+        }
+        &__tab {
+            font-size: 12px;
+        }
+    }
 }
 
 @media (max-width: 575px) {
@@ -194,5 +202,22 @@
     }
     .feed-form{
         width: 100%;
+    }
+    .catalog {
+        &__tabs {
+            margin-top: 30px;
+        }
+        &__tab {
+            line-height: 20px;
+        }
+        &__content {
+            margin-top: 40px;
+        }
+        &-item {
+            padding-left: 15px;
+            &__price {
+                font-size: 16px;
+            }
+        }
     }
 }
