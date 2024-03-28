@@ -43,6 +43,13 @@
         padding: 35px 62px 34px 68px;
         min-height: 143px;
     }
+    .error {
+        border: 1px solid $base-color;
+    }
+    label.error{
+        border: none;
+        text-align: center;
+    }
 }
 
 #consultation, #order, #thanks {

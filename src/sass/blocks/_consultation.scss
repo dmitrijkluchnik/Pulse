@@ -9,4 +9,12 @@
         line-height: 30px;
         text-align: left;
     }
+    .error {
+        border: 1px solid $base-color;
+    }
+    label.error{
+        color: #fff;
+        border: none;
+        text-align: center;
+    }
 }
