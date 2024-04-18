@@ -1,3 +1,7 @@
+@import "libs/bootstrap-reboot.min";
+@import "libs/font";
+@import "libs/tiny-slider";
+
 @import "base/variables";
 * {
     font-family: 'MuseoModerno', sans-serif;
@@ -21,7 +25,7 @@
 @import "blocks/review";
 @import "blocks/footer";
 @import "blocks/modal";
-
+@import "blocks/pageup";
 
 
 
